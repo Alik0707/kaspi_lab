@@ -13,6 +13,7 @@ void main() {
 
     // mode 1
     TransactionInterface mode1 = new TransactionService(TransactionMode.MODE1);
+    
     String transactionId_mode1 = mode1.startTransaction(cardNumber, amount);
     IO.println("MODE1 TransactionId: " + transactionId_mode1);
     IO.println("MODE1 Result: " + mode1.completeTransaction(transactionId_mode1, success));
