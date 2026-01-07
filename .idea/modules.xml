@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/kaspi_lab.iml" filepath="$PROJECT_DIR$/kaspi_lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kaspi_lab.iml" filepath="$PROJECT_DIR$/.idea/kaspi_lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod1_task2/mod1_task2.iml" filepath="$PROJECT_DIR$/mod1_task2/mod1_task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task_1/task_1.iml" filepath="$PROJECT_DIR$/task_1/task_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task_3/task_3.iml" filepath="$PROJECT_DIR$/task_3/task_3.iml" />
     </modules>
   </component>
 </project>
