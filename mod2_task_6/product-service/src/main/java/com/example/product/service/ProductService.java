@@ -5,6 +5,7 @@ import com.example.product.model.Product;
 import com.example.product.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Map;
 
 @Service
@@ -18,6 +19,11 @@ public class ProductService {
         this.repository = repository;
         this.deliveryClient = deliveryClient;
     }
+
+    public List<Product> findAll() {
+        return repository.findAll(); // или список из памяти
+    }
+
 
     public Product save(Product product) {
         Product saved = repository.save(product);
