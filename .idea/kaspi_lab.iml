@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/mod2_task_6/delivery-service/delivery/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mod2_task_6/product-service/demo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/task-9/product-service/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/task_8/product-service/src/main/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
