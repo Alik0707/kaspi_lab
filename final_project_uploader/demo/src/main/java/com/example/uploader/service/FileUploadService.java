@@ -52,9 +52,5 @@ public class FileUploadService {
                 );
     }
 
-    //Метод удаления
-//    public Mono<Void> deleteFile(FileRecord record) {
-//        return storage.delete(record.getStoragePath())
-//                .then(repository.delete(record));
-//    }
+
 }

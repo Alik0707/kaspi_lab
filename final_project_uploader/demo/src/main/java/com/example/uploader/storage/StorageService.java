@@ -8,6 +8,4 @@ public interface StorageService {
     //Сохраняет файл и возвращает путь где он лежит
     Mono<String> save(FilePart filePart, String idempotencyKey);
 
-    //Удаляет файл по путь
-    Mono<Void> delete(String storagePath);
 }
